@@ -125,6 +125,26 @@ body {
 .happening-text {
   display: flex;
   color: #757676;
+  gap: 10px;
+  margin: 8px 16px;
+  align-items: stretch;
+  justify-items: center;
+}
+
+.whats-happening {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  font-size: larger;
+}
+
+.happening-emoji {
+  display: flex;
+  justify-content: flex-start;
+  margin-left: 65px;
+  margin-right: 16px;
+
+  padding: 12px 0;
 }
 
 .happening-text img {
@@ -134,8 +154,33 @@ body {
   object-fit: cover;
 }
 
-.explorebar {
+.tweet-emojis-div {
+  display: flex;
+  align-items: center;
+  gap: 15px;
 }
+
+.tweet-btn-div {
+  margin-left: auto;
+}
+
+.btn-happening-tweet {
+  padding: 5px 15px;
+
+  font-size: 15px;
+  font-weight: 600;
+  text-decoration: none;
+  cursor: pointer;
+  border-radius: 20px;
+  outline: none;
+  text-align: center;
+  color: #ffffff;
+  background-color: rgba(29, 161, 242, 0.5);
+  border: none;
+}
+
+/* .explorebar {
+} */
 
 .bird-logo,
 .home-icon,
@@ -216,5 +261,5 @@ body {
   color: rgb(83, 100, 113);
 }
 
-.tweet-options-icon {
-}
+/* .tweet-options-icon {
+} */
