@@ -89,7 +89,7 @@ body {
 }
 
 .btn-for-you-tab:hover {
-  background-color: #1da1f2;
+  background-color: #eff3f4;
   cursor: pointer;
 }
 
@@ -109,7 +109,7 @@ body {
 }
 
 .btn-following-tab:hover {
-  background-color: #1da1f2;
+  background-color: #eff3f4;
   cursor: pointer;
 }
 
@@ -178,9 +178,6 @@ body {
   background-color: rgba(29, 161, 242, 0.5);
   border: none;
 }
-
-/* .explorebar {
-} */
 
 .bird-logo,
 .home-icon,
@@ -263,3 +260,64 @@ body {
 
 /* .tweet-options-icon {
 } */
+
+/*EXPLORE SECTION */
+.explorepage {
+  display: flex;
+  flex-direction: column;
+  padding-top: 15px;
+  padding-left: 30px;
+}
+
+.btn-search-tweet {
+  /* padding: 5px 15px; */
+  padding: 10px 30px;
+
+  font-size: 15px;
+  font-weight: 600;
+  text-decoration: none;
+  cursor: pointer;
+  border-radius: 20px;
+  outline: none;
+  text-align: center;
+  color: #ffffff;
+  background-color: #eff3f4;
+  border: none;
+}
+
+.search-bar {
+  display: flex;
+  align-items: center;
+  width: 300px;
+  height: 40px;
+  background-color: #f5f8fa;
+  border-radius: 20px;
+  padding-left: 12px;
+  gap: 12px;
+  font-size: 15px;
+}
+
+.search-bar input[type="text"] {
+  flex-grow: 1;
+  border: none;
+  outline: none;
+  font-size: 16px;
+  padding: 5px;
+  background-color: transparent;
+}
+
+.search-bar button {
+  border: none;
+  outline: none;
+  background-color: transparent;
+  cursor: pointer;
+  padding: 5px;
+}
+
+.search-bar button i {
+  font-size: 18px;
+  color: #1da1f2;
+}
+
+.twitter-trend {
+}
