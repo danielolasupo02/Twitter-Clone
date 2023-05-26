@@ -378,3 +378,13 @@ body {
   line-height: 16px;
   color: #536471;
 }
+
+.follow-suggestion {
+  display: flex;
+  align-items: stretch;
+  flex-direction: column;
+  flex-basis: 288px;
+  background-color: #f5f8fa;
+  border-radius: 15px;
+  padding: 12px 16px;
+}
