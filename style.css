@@ -267,6 +267,7 @@ body {
   flex-direction: column;
   padding-top: 15px;
   padding-left: 30px;
+  gap: 15px;
 }
 
 .btn-search-tweet {
@@ -281,7 +282,7 @@ body {
   outline: none;
   text-align: center;
   color: #ffffff;
-  background-color: #eff3f4;
+  background-color: #f5f8fa;
   border: none;
 }
 
@@ -320,4 +321,60 @@ body {
 }
 
 .twitter-trend {
+  display: flex;
+  align-items: stretch;
+  flex-direction: column;
+  flex-basis: 288px;
+  background-color: #f5f8fa;
+  border-radius: 15px;
+  padding: 12px 16px;
+}
+
+.trend-header {
+  color: #0f1419;
+  font-size: 20px;
+  line-height: 24px;
+  font-weight: 700;
+  padding-bottom: 12px;
+}
+
+.trend-footer {
+  color: #1d9bf0;
+  font-size: 15px;
+  line-height: 20px;
+  padding-top: 17px;
+  /* padding-bottom: 17px; */
+}
+
+.trend-summary {
+  display: flex;
+  flex-direction: column;
+  gap: 3px;
+  justify-content: space-between;
+  padding-top: 12px;
+  padding-bottom: 12px;
+}
+
+.trend-desc {
+  display: flex;
+  justify-content: space-between;
+}
+
+.trend-title {
+  font-size: 13px;
+  line-height: 16px;
+  color: #536471;
+}
+
+.trend-topic {
+  font-size: 15px;
+  line-height: 20px;
+  color: #0f1419;
+  font-weight: 700;
+}
+
+.trend-count {
+  font-size: 13px;
+  line-height: 16px;
+  color: #536471;
 }
