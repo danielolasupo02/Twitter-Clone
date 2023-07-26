@@ -24,4 +24,17 @@
 - Scroll bar for entire page
 - Message box for Tweet DMs
 
-#PHASE 3 => Implement Responsive Web Design on the Page
+#PHASE 3 => Find good naming convention for all class components of page
+
+> twitter-logo
+> twitter-sidebar-icon
+> tweet-btn--xl
+> tweet-btn--md
+> tweet-options
+> tweet-action-icon
+> twitter-verify-btn
+> twitter-follow-btn--md
+> twitter-follow-btn--xl
+> twitter-follow-btn--xxl (use for in promoted contents)
+
+#PHASE 4 => Implement Responsive Web Design
