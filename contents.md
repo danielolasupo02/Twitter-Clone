@@ -1,0 +1,27 @@
+#THOUGHT PROCESS FOR EXECUTING THE TWITTER CLONE PROJECT
+
+#PHASE 1 => Gather all assets for project including images and icons
+
+#PHASE 2 => Build Entire Page Layout
+
+- Create a grid container with three columns
+- First grid container should contain:
+  > Twitter Logo,
+  > 10 side bar icons with description at RHS (**)
+  > Tweet button
+  > Profile nav link with toggle icon (Add existing account & Logout @username) ((**))
+- Second grid container should contain:
+  > For you and following feed nav link or tab
+  > Reusable profile picture component from first grid & Tweet something div with 6 icons and 1 button
+  > Feed Tweet (REUSABLE COMPONENT) with dynamic profile picture(**) and 6 icons (**)
+  > Feature should include single images, multiple images, gifs, tweet with retweet
+- Third grid container should contain:
+  > A Search Bar with search icon
+  > Get verified nav box
+  > Trending tweet nav box
+  > Who to follow nav box
+  > Footer links
+- Scroll bar for entire page
+- Message box for Tweet DMs
+
+#PHASE 3 => Implement Responsive Web Design on the Page
