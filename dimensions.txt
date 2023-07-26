@@ -1,9 +1,0 @@
-PAGE DIMENSION STRUCTURE
-
-lhs margin --> w: 202px
-navbar --> w: 257px, h: 781px
-feedpage lhs margin --> 30px
-feedpage --> w: 600px
-feedpage rhs margin --> 30px
-explore --> w: 350px
-rhs margin --> w: 202px
