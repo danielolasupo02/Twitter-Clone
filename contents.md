@@ -37,4 +37,27 @@
 > twitter-follow-btn--xl
 > twitter-follow-btn--xxl (use for in promoted contents)
 
-#PHASE 4 => Implement Responsive Web Design
+#PHASE 4 => Gather All Image Assets
+
+img-0 => profile picture
+img-1 => @Prathkum
+img-2 => @LawrenceDCodes
+img-3 => @timokonkwo\_
+img-4 => @DaveyHert
+img-5 => @bahdcoder
+img-6 => @Masi_9000
+img-7 => @ReeceJames
+img-8 => @VibaliJoshi
+img-9 => @porobertdev
+img-10 => @jonasschmedtman
+img-11 => @lecrae
+img-12 => @benawad
+img-13 => @JamesClear
+img-14 => @DThompsonDev
+img-15 => @TheOdinProject
+img-16 => @IAmMarkManson
+img-17 => @thebowtiedai
+img-18 => @thejustinwelsh
+img-19 => @SahilBloom
+
+#PHASE 5 => Implement Responsive Web Design
