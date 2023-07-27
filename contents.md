@@ -1,5 +1,7 @@
 #THOUGHT PROCESS FOR EXECUTING THE TWITTER CLONE PROJECT
 
+Helping Tools => CSS Peeper Extension
+
 #PHASE 1 => Gather all assets for project including images and icons
 
 #PHASE 2 => Build Entire Page Layout
@@ -27,9 +29,20 @@
 #PHASE 3 => Find good naming convention for all class components of page
 
 > twitter-logo
+> twitter-sidebar-menu
+> twitter-sidebar-menu-item
 > twitter-sidebar-icon
+> twitter-toggle-icon
+> twitter-sidebar-profile--nav
+> twitter-sidebar-profile--nav-pix
+> twitter-sidebar-profile--nav-text
+> twitter-sidebar-profile--nav-toggle
+> twitter-sidebar-profile--displayName
+> twitter-sidebar-profile--username
+> twitter-profile--pix
 > tweet-btn--xl
 > tweet-btn--md
+> twitter-feed-nav
 > tweet-options
 > tweet-action-icon
 > twitter-verify-btn
