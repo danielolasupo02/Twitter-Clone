@@ -40,6 +40,15 @@ Helping Tools => CSS Peeper Extension
 > twitter-sidebar-profile--displayName
 > twitter-sidebar-profile--username
 > twitter-profile--pix
+
+> twitter-feed-nav
+> twitter-feed-nav-0
+> twitter-feed-nav-1
+
+> twitter-default-tweet
+
+> twitter-status-container
+
 > tweet-btn--xl
 > tweet-btn--md
 > twitter-feed-nav
