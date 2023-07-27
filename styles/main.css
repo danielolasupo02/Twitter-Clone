@@ -15,7 +15,6 @@
   /* gap: 20px; */
 }
 
-.main-content,
 .right-sidebar {
   padding: 20px;
 }
@@ -28,7 +27,7 @@
   padding-left: 175px;
   padding-right: 50px;
   height: 100vh;
-  background-color: #f1f1f1;
+  background-color: #ffffff;
 }
 
 /*TWITTER NAV MENU*/
@@ -90,8 +89,8 @@
 }
 
 .twitter-profile--pix {
-  width: 26px;
-  height: 26px;
+  width: 30px;
+  height: 30px;
   border-radius: 50%;
 }
 
@@ -108,6 +107,7 @@
 
 .twitter-sidebar-profile--displayName {
   /* font-size: 7px; */
+  box-sizing: none;
   gap: 10px;
   font-weight: 700;
 }
@@ -117,17 +117,106 @@
 }
 
 /*MAIN FEED*/
-.twitter-feed-nav {
-  padding: 0 12px 12px 12px;
+.main-content {
+  display: flex;
+  flex-direction: column;
+  background-color: #ffffff;
+  border: 2px solid #eff3f4;
 }
 
-.main-content {
+.twitter-feed-nav {
+  background-color: #1da1f2;
+  border-bottom: 2px solid #eff3f4;
+}
+
+.twitter-feed-nav-0 {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  padding: 15px;
+  height: 50%;
   background-color: #ffffff;
 }
 
+.twitter-feed-nav-0-text {
+  font-size: 15px;
+  font-weight: 700;
+  line-height: 24px;
+  color: #0f1419;
+}
+
+.twitter-feed-nav-1 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 50%;
+  background-color: #ffffff;
+}
+
+.twitter-feed-navTab-0,
+.twitter-feed-navTab-1 {
+  text-align: center;
+  width: 100%;
+  padding: 15px;
+}
+
+.active-Tab,
+.inactive-Tab {
+  font-size: 12px;
+  font-weight: 500;
+  line-height: 20px;
+  letter-spacing: normal;
+}
+
+.active-Tab {
+  color: #0f1419;
+}
+
+.inactive-Tab {
+  color: #536471;
+}
+
+.twitter-feed-tweet {
+  display: flex;
+  gap: 8px;
+  align-items: center;
+  justify-content: flex-start;
+  padding: 12px;
+  width: 100%;
+  background-color: #00ff00;
+}
+
+.twitter-status-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 12px;
+  padding-left: 48px;
+  background-color: #1da1f2;
+}
+
+.tweet-options {
+  display: flex;
+  gap: 10px;
+}
+
+.tweet-option-icons {
+  height: 16px;
+  width: 16px;
+}
+
+.tweet-btn--md {
+  background-color: #ff0000;
+  padding: 10px;
+  border-radius: 8px;
+}
+
+/* .twitter-default-tweet {
+} */
+
 /*RIGHT SIDEBAR*/
 .right-sidebar {
-  background-color: #f1f1f1;
+  background-color: #ffffff;
 }
 
 /*RESUSABLE COMPONENTS*/
