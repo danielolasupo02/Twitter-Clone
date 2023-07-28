@@ -48,12 +48,23 @@ Helping Tools => CSS Peeper Extension
 > twitter-default-tweet
 
 > twitter-status-container
+> twitter-tweets
+> twitter-tweets-profile--pix
+> twitter-tweets-info-data
+> twitter-tweets-displayName
+> twitter-tweets-username
+> twitter-tweets-date
+
+> REUSABLE TOGGLE COMPONENT
+> twitter-tweets-status
+> tweet-action-icon
+> verified-checkmark (REUSABLE)
 
 > tweet-btn--xl
 > tweet-btn--md
 > twitter-feed-nav
 > tweet-options
-> tweet-action-icon
+
 > twitter-verify-btn
 > twitter-follow-btn--md
 > twitter-follow-btn--xl
