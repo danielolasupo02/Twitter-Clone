@@ -209,6 +209,7 @@
   display: grid;
   grid-template-columns: 1fr 9fr;
   background-color: #00ffff;
+  border-bottom: 2px solid #eff3f4;
 }
 
 .twitter-tweets-profile--pix {
@@ -233,12 +234,36 @@
   background-color: #ffffff;
 }
 
+.twitter-tweets-info-data2 {
+  display: flex;
+  justify-content: space-between;
+  /* background-color: #00ffff; */
+  padding: 12px 10px 10px 0;
+}
+
 .twitter-actual-tweet {
   color: #0f1419;
   font-size: 15px;
   line-height: 24px;
   letter-spacing: normal;
-  width: 60%;
+  /* width: 70%; */
+}
+
+.tweet-action {
+  display: flex;
+  gap: 4px;
+}
+
+.tweet-action-icon {
+  fill: #536471;
+  width: 15px;
+  height: 15px;
+}
+
+.tweet-action-description {
+  color: #536471;
+  font-size: 13px;
+  line-height: 16px;
 }
 
 .tweet-btn--md {
@@ -249,9 +274,6 @@
   padding: 7px 14px;
   border-radius: 9999px;
 }
-
-/* .twitter-default-tweet {
-} */
 
 /*RIGHT SIDEBAR*/
 .right-sidebar {
@@ -292,7 +314,6 @@
 .inactive-component {
   /* Original color */
   background-color: #1d9bf0;
-
   /* Lightened color with 50% opacity */
   background-color: rgba(29, 155, 240, 0.5);
 }
@@ -346,4 +367,8 @@
 .twitter-tweets-username,
 .twitter-tweets-period {
   margin-right: 4px;
+}
+
+.twitter-tweets-toggle {
+  margin-left: auto;
 }
