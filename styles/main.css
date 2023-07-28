@@ -277,7 +277,109 @@
 
 /*RIGHT SIDEBAR*/
 .right-sidebar {
-  background-color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  padding-top: 5px;
+  padding-left: 20px;
+  /* background-color: #ffffff; */
+}
+
+.twitter-searchBar {
+  display: flex;
+  gap: 15px;
+  align-items: center;
+  background-color: #eff3f4;
+  padding: 12px 12px;
+  max-width: 300px;
+  border-radius: 9999px;
+}
+
+.twitter-searchBar-text {
+  font-size: 15px;
+  color: #536471;
+}
+
+.twitter-verification-cta {
+  background-color: #eff3f4;
+  display: flex;
+  flex-direction: column;
+  align-items: space-between;
+  gap: 6px;
+  padding: 10px 15px;
+  max-width: 300px;
+  border-radius: 14px;
+}
+
+.twitter-verification-cta-title {
+  color: #0f1419;
+  font-weight: 700;
+  font-size: 18px;
+}
+
+.twitter-verification-cta-text {
+  color: #0f1419;
+  font-size: 15px;
+  font-weight: 500;
+  line-height: 20px;
+}
+
+.twitter-verification-cta-btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #ffffff;
+  cursor: pointer;
+  background-color: #0f1419;
+  font-weight: 500;
+  padding: 8px;
+  max-width: 100px;
+  border-radius: 9999px;
+  border: none;
+}
+
+.twitter-trending-box {
+  display: flex;
+  flex-direction: column;
+  border-radius: 14px;
+  padding: 0 15px;
+  background-color: #eff3f4;
+  max-width: 300px;
+}
+
+.twitter-trend-topic {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+}
+
+.twitter-trend-header,
+.twitter-trend-topic {
+  padding: 12px 16px;
+}
+.twitter-trend-header {
+  color: #000000;
+  font-size: 18px;
+  font-weight: 700;
+}
+
+.twitter-trend-subTopic {
+  color: #536471;
+  font-size: 13px;
+  line-height: 16px;
+}
+
+.twitter-trend-actualTopic {
+  color: #0f1419;
+  font-size: 15px;
+  font-weight: 500;
+  line-height: 20px;
+}
+
+.twitter-trend-count {
+  color: #536471;
+  font-size: 13px;
+  line-height: 16px;
 }
 
 /*RESUSABLE COMPONENTS*/
@@ -372,3 +474,62 @@
 .twitter-tweets-toggle {
   margin-left: auto;
 }
+
+/*LOGIC TO IMPLEMENT RIGHT HAND FEED*/
+/* padding-top -> 5px
+padding-left -> 15px */
+
+/*IMPLEMENT FLEX CONTAINER FOR */
+/* SEARCH BAR
+GET VERIFIED
+TRENDING BOX
+WHO TO FOLLOW BOX 
+PAGE FOOTER */
+/*THEN ADD A GAP*/
+
+/*IMPLEMENTING THE SEARCH BAR*/
+/* => padding-left and padding-right -> 50px
+=> padding-top and padding-bottom -> 10px
+=> display parent container as flex
+=> add search svg icon and give it a class
+=> wrap "Search twitter" text into a span element
+=> add a gap of 10px between the search svg icon 
+and the search twitter text  */
+
+/*IMPLEMENTING GET VERIFIED BOX*/
+/* => padding -> 10px
+=> display -> flex
+=> flex-direction -> column
+=> align items -> space-between */
+
+/*IMPLEMENTING TRENDING BOX*/
+/* => padding -> 10px
+=> display -> flex
+=> div for [Trends for you] => twitter-trend-header
+=> div for [Trends topic] => twitter-trend-topic
+   sub divs => display as grid 
+1st grid content
+   display as flex then add equal gap
+   1.Trending sub-topic e.g. Technology • Trending
+   2.Topic actual-topic e.g. React JS
+   3.Tweet count e.g. 57.9k Tweets
+2nd grid content
+   margin-left auto    */
+
+/*IMPLEMENTING WHO TO FOLLOW BOX*/
+/* => padding -> 10px
+=> display -> flex
+=> three (3) flex items
+  1st flex item => who to follow
+  2nd flex item => display flex
+     1st flex item => profile picture
+     2nd flex item => display name and username with column flex direction
+     3rd flex item => follow button
+   3rd flex item => show more  */
+
+/*IMPLEMENTING FOOTER*/
+/* => define parent container
+=> padding top and bottom should be 0
+=> padding left and right should be 10px
+=> display parent container as flex
+=> define a line height of 15px for the fonts */
