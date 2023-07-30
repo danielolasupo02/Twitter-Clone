@@ -77,7 +77,7 @@
 
 /*TWITTER PROFILE SECTION*/
 .twitter-sidebar-profile--nav {
-  background-color: #1da1f2;
+  /* background-color: #1da1f2; */
   background-color: #ffff;
   display: flex;
   align-items: center;
@@ -285,6 +285,7 @@
   /* background-color: #ffffff; */
 }
 
+/* SEARCH BAR BOX */
 .twitter-searchBar {
   display: flex;
   gap: 15px;
@@ -300,6 +301,7 @@
   color: #536471;
 }
 
+/* VERIFICATION BOX */
 .twitter-verification-cta {
   background-color: #eff3f4;
   display: flex;
@@ -338,6 +340,7 @@
   border: none;
 }
 
+/* TRENDING BOX */
 .twitter-trending-box {
   display: flex;
   flex-direction: column;
@@ -380,6 +383,13 @@
   color: #536471;
   font-size: 13px;
   line-height: 16px;
+}
+
+/* WHO TO FOLLOW BOX */
+.twitter-WhoToFollow-box {
+  padding: 0 15px;
+  max-width: 300px;
+  background-color: #00ffff;
 }
 
 /*RESUSABLE COMPONENTS*/
