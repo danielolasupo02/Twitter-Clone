@@ -1,3 +1,5 @@
+/*USE CSS PEEPER EXTENSION TO GET ACTUAL STYLES*/
+
 * {
   padding: 0;
   margin: 0;
@@ -8,11 +10,24 @@
   font-size: 15px;
 }
 
+/*STICKY NAVIGATION*/
+/* Style for the sticky item */
+.sticky-item {
+  position: sticky;
+  top: 0; /* Stick to the top of the grid container */
+  height: 100px; /* Set a fixed height for the sticky item */
+  /* background-color: #f0f0f0; */
+}
+
+.non-sticky-grid {
+  /* The third grid will adjust its height based on its content */
+  overflow-y: auto; /* Add vertical scroll if content overflows */
+}
+
 .container {
   display: grid;
-  grid-template-columns: 350px 1fr 550px;
-  grid-template-columns: 3fr 4fr 3.5fr;
-  /* gap: 20px; */
+  grid-template-columns: 3fr 4fr 3.5fr; /* Adjust as needed */
+  /* grid-template-columns: 3fr 4fr 3.5fr; */
 }
 
 .right-sidebar {
@@ -22,12 +37,11 @@
 /*LEFT SIDE BAR*/
 .left-sidebar {
   display: flex;
-  /* flex-grow: 1; */
   padding-top: 10px;
   padding-left: 175px;
   padding-right: 50px;
   height: 100vh;
-  background-color: #ffffff;
+  /* background-color: #ff00ff; */
 }
 
 /*TWITTER NAV MENU*/
@@ -38,9 +52,6 @@
   justify-content: space-between;
   height: 100%;
 }
-
-/* .twitter-nav-0 {
-} */
 
 .twitter-nav-1 {
   height: 100px;
@@ -127,6 +138,7 @@
 .twitter-feed-nav {
   background-color: #1da1f2;
   border-bottom: 2px solid #eff3f4;
+  opacity: 0.85;
 }
 
 .twitter-feed-nav-0 {
@@ -285,6 +297,14 @@
   /* background-color: #ffffff; */
 }
 
+.non-sticky-grid {
+  flex: 1; /* Allow the third grid to grow and take available space */
+  max-height: calc(
+    100vh - 100px
+  ); /* Calculate the maximum height, considering the sticky item's height */
+  overflow-y: auto; /* Add vertical scroll if content overflows */
+}
+
 /* SEARCH BAR BOX */
 .twitter-searchBar {
   display: flex;
@@ -345,7 +365,7 @@
   display: flex;
   flex-direction: column;
   border-radius: 14px;
-  padding: 0 15px;
+  padding: 10px 15px 5px 15px;
   background-color: #eff3f4;
   max-width: 300px;
 }
@@ -358,7 +378,7 @@
 
 .twitter-trend-header,
 .twitter-trend-topic {
-  padding: 12px 16px;
+  padding: 12px 0;
 }
 .twitter-trend-header {
   color: #000000;
@@ -387,7 +407,7 @@
 
 /* WHO TO FOLLOW BOX */
 .twitter-WhoToFollow-box {
-  /* border-radius: 11px; */
+  border-radius: 11px;
   padding: 10px 15px;
   padding-right: 8px;
   max-width: 300px;
@@ -404,7 +424,7 @@
 .twitter-WhoToFollow-metaData {
   display: flex;
   gap: 5px;
-  padding: 4px 0;
+  padding: 10px 0;
 }
 
 .twitter-WhoToFollow-title {
@@ -413,6 +433,7 @@
   line-height: 24px;
   letter-spacing: normal;
   color: #0f1419;
+  padding-bottom: 5px;
   /* background-color: #00ffff; */
 }
 
@@ -423,11 +444,37 @@
   background-color: #0f1419;
   color: #ffffff;
   cursor: pointer;
-  font-weight: 500;
+  font-size: 12px;
+  font-weight: 700;
   padding: 5px 10px;
   margin-left: auto;
   border-radius: 9999px;
   max-height: 38px;
+}
+
+.twitter-WhoToFollow-showMore {
+  color: #1d9bf0;
+  padding: 10px 0;
+  font-size: 15px;
+  font-weight: 500;
+  /* background-color: #536471; */
+}
+
+.twitter-footer {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  color: #536471;
+  padding: 5px;
+  /* background-color: blueviolet; */
+
+  /* line-height: 16px; */
+  max-width: 300px;
+  column-gap: 10px;
+}
+
+.twitter-footer > span {
+  font-size: 13px;
 }
 
 .twitter-WhoToFollow-accountDesc {
@@ -449,6 +496,7 @@
 }
 
 .twitter-WhoToFollow-username {
+  /* font-family: "Times New Roman"; */
   color: #536471;
 }
 
